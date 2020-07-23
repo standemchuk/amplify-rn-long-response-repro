@@ -31,8 +31,8 @@ class App extends Component {
   async componentDidMount() {
     console.log('componentDidMount')
 
-    const username = 'acutorio@gmail.com'
-    const password = 'Coldplay123!'
+    const username = 'SUBSTITUTE_ME'
+    const password = 'SUBSTITUTE_ME'
     const start = new Date()
 
     const wallet = await SDKService.signIn(username, password)
